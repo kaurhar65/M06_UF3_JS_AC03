@@ -4,22 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="scripts/script.js"></script>
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
-    <form>
-        <label>Categoria:</label>
-        <select name="categoria">
-            <option value="cat1"> cat1 </option>
-            <option value="cat2"> cat2 </option>
+    <form  action=""  method="post">
+        <label for="cat">Categoria:</label>
+        <select name="cat" id="categoriaSelect">
         </select>
-        <label>Subcategoria:</label>
-        <select name="subCategoria">
-            <option value="subcat11"> subcat11 </option>
-            <option value="subcat12"> subcat12 </option>
+        <label for="subcat ">Subcategoria:</label>
+        <select name="subcat" id="subcategoriaSelect">
         </select>
         <input type="submit">
     </form>    
-        
+    <script src="./scripts/script.js"></script>  
 </body>
 </html>
